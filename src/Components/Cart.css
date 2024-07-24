@@ -1,0 +1,85 @@
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .cart li:last-child {
+    border-bottom: none;
+  }
+  
+  .cart img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .cart h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .cart p {
+    margin: 0;
+    color: #888;
+  }
+  
+
+  .shipping-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin-left: 550px;
+  }
+  
+  .shipping-form h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .shipping-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .shipping-form input[type='text'],
+  .shipping-form input[type='number'],
+  .shipping-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .shipping-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 40px;
+  }

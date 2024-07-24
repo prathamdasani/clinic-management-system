@@ -1,0 +1,60 @@
+/* Container for the form */
+
+.appointment-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  /* Form header */
+  .appointment-form h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Form inputs */
+  .appointment-form input {
+    
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button */
+  .appointment-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the button */
+  .appointment-form button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  
+  /* Adjust the appearance of the date and time inputs */
+  .appointment-form input[type="date"],
+  .appointment-form input[type="time"] {
+    appearance: auto; /* Override browser styles */
+  }
+  
+  /* Add more custom styles as needed */
+  .photo{
+   /* padding-left: 35%;*/
+   float: right;
+   padding-top: 10%;
+    
+  }
+  

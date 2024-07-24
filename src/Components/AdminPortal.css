@@ -1,0 +1,12 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+    margin-left: 50px;
+    height: 200px;
+}
+
+.cards button{
+    margin-left: 120px;
+}
